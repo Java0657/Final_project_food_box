@@ -3,7 +3,9 @@ package com.exam;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+import com.food_delivery.ExamserverApplication;
+
+@SpringBootTest(classes=ExamserverApplication.class)
 class ExamserverApplicationTests {
 
 	@Test
