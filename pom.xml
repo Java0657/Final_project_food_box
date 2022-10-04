@@ -57,13 +57,21 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        
+        <dependency>
+    <groupId>com.google.guava</groupId>
+    <artifactId>failureaccess</artifactId>
+    <version>1.0.1</version>
+</dependency>
     </dependencies>
 
     <build>
+    
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                
             </plugin>
         </plugins>
     </build>
