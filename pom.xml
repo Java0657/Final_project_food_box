@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.3.RELEASE</version>
+       <version>2.7.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.exam</groupId>
@@ -14,7 +14,7 @@
     <name>food_zone</name>
     <description>backend code for exam portal</description>
     <properties>
-        <java.version>14</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -66,6 +66,7 @@
     </dependencies>
 
     <build>
+    <finalName>food-box-new</finalName>
     
         <plugins>
             <plugin>
